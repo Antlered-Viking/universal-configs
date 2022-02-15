@@ -9,7 +9,9 @@ ESLint, as configured by Antlered Viking
 First install the package as a dev dependency:
 
 ```bash
-npm install @antlered-viking/eslint-config --dev
+npm i -D @antlered-viking/eslint-config
+# or if you use yarn
+yarn add -D @antlered-viking/eslint-config
 ```
 
 Then just create `.eslintrc.json` at the root of your project with the following contents:
