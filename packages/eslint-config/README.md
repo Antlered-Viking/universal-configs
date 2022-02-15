@@ -1,11 +1,24 @@
 # `@antlered-viking/eslint-config`
 
-> TODO: description
+ESLint, as configured by Antlered Viking
+
+---
 
 ## Usage
 
-```
-const eslintConfig = require('@antlered-viking/eslint-config');
+First install the package as a dev dependency:
 
-// TODO: DEMONSTRATE API
+```bash
+npm install @antlered-viking/eslint-config --dev
 ```
+
+Then just create `.eslintrc.json` at the root of your project with the following contents:
+
+```json
+{
+  "extends": ["@antlered-viking/eslint-config"]
+  // your custom overrides here
+}
+```
+
+That's actually it! Now when your project will use this config setup wherever ESLint gets used
