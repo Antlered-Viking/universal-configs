@@ -1,6 +1,6 @@
 # `@antlered-viking/prettier-config`
 
-ESLint, as configured by Antlered Viking
+PrettierRC, as configured by Antlered Viking
 
 ---
 
