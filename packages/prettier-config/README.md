@@ -16,9 +16,9 @@ Then just create `.prettierrc.json` at the root of your project with the followi
 
 ```json
 {
-  "extends": ["@antlered-viking/prettier-config"]
-  // your custom overrides here
+  "prettier": "@antlered-viking/prettier-config"
 }
+// your custom overrides here
 ```
 
 That's actually it! Now when your project will use this config setup wherever Prettier gets used
