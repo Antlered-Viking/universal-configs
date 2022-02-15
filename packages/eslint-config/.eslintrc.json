@@ -1,12 +1,10 @@
 {
     "env": {
         "es2021": true,
-        "mocha": true,
         "node": true
     },
     "extends": [
         "plugin:@typescript-eslint/recommended",
-        "plugin:mocha/recommended",
         "prettier"
     ],
     "parser": "@typescript-eslint/parser",
@@ -16,7 +14,6 @@
     },
     "plugins": [
         "@typescript-eslint",
-        "mocha",
         "prettier"
     ],
     "rules": {
