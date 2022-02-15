@@ -1,0 +1,19 @@
+{
+  "name": "universal-configs",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "lerna run lint --stream",
+    "format": "lerna run format --stream",
+    "dev": "lerna run dev --stream",
+    "start": "lerna run start --stream",
+    "test": "lerna run test --stream",
+    "build": "lerna run build --stream"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
