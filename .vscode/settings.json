@@ -1,0 +1,16 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                ".prettierrc.json"
+            ],
+            "url": "http://json.schemastore.org/prettierrc"
+        },
+        {
+            "fileMatch": [
+                ".eslintrc.json"
+            ],
+            "url": "http://json.schemastore.org/eslintrc"
+        }
+    ]
+}
