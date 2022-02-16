@@ -1,0 +1,6 @@
+{
+    "extends": [
+        "@antlered-viking/eslint-config"
+    ],
+    // your custom overrides here
+}
