@@ -1,6 +1,6 @@
 {
   "name": "@antlered-viking/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "ISC",
   "main": "index.js",
   "publishConfig": {
