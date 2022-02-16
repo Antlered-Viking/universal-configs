@@ -14,7 +14,7 @@ npm i -D @antlered-viking/prettier-config --dev
 yarn add -D @antlered-viking/prettier-config
 ```
 
-Then just create `.prettierrc.json` at the root of your project with the following contents:
+Then just add the following to your package.json file:
 
 ```json
 {
