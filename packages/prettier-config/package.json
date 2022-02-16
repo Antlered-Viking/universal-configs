@@ -8,7 +8,8 @@
   },
   "scripts": {
     "lint": "prettier .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "install": "node ./lib/updatePackageFile.js"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
