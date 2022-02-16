@@ -9,6 +9,8 @@
   "scripts": {
     "lint": "eslint --ignore-path .gitignore",
     "lint:fix": "eslint --ignore-path .gitignore --fix",
+    "format": "prettier --ignore-path --plugin-search-dir=. .",
+    "format:fix": "prettier --ignore-path --write --plugin-search-dir=. .",
     "install": "node ./lib/post-install.js"
   },
   "devDependencies": {
@@ -17,6 +19,8 @@
     "eslint-plugin-prettier": "^4.0.0"
   },
   "dependencies": {
+    "@antlered-viking/prettier-config": "^1.1.0",
     "npm-add-script": "^1.1.0"
-  }
+  },
+  "prettier": "@antlered-viking/prettier-config"
 }
