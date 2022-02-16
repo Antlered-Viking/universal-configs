@@ -19,6 +19,7 @@
     "eslint-plugin-prettier": "^4.0.0"
   },
   "dependencies": {
+    "@antlered-viking/eslint-config": "^1.1.0",
     "@antlered-viking/prettier-config": "^1.1.1",
     "npm-add-script": "^1.1.0"
   },
