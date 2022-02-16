@@ -1,6 +1,6 @@
 {
   "name": "@antlered-viking/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "ISC",
   "main": "index.js",
   "publishConfig": {
@@ -19,8 +19,8 @@
     "eslint-plugin-prettier": "^4.0.0"
   },
   "dependencies": {
-    "@antlered-viking/eslint-config": "^1.1.0",
-    "@antlered-viking/prettier-config": "^1.1.1",
+    "@antlered-viking/eslint-config": "^1.1.1",
+    "@antlered-viking/prettier-config": "^1.1.2",
     "npm-add-script": "^1.1.0"
   },
   "prettier": "@antlered-viking/prettier-config"
