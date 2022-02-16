@@ -9,18 +9,16 @@ PrettierRC, as configured by Antlered Viking
 First install the package as a dev dependency:
 
 ```bash
-npm i -D @antlered-viking/prettier-config --dev
+npm install -D @antlered-viking/prettier-config
 # or if you use yarn
 yarn add -D @antlered-viking/prettier-config
 ```
 
-Then just add the following to your package.json file:
+Once the package finishes installing, it will automatically update your package.json to start using Prettier right away.
 
-```json
-{
-  "prettier": "@antlered-viking/prettier-config"
-}
-// your custom overrides here
+```bash
+npm run format # if you use NPM
+yarn run format # if you use Yarn
 ```
 
-That's actually it! Now when your project will use this config setup wherever Prettier gets used
+That's actually it! Now your project is set up to use this prettier configuration, and it has a new `format` script in your `package.json` file you can use going forward.
